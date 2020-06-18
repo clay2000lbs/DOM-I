@@ -47,11 +47,15 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 // Task
 let navAnchors = document.querySelectorAll('nav a');
 navAnchors[0].textContent = "Services";
-navAnchors[1].textContent = "Products";
+navAnchors[1].textContent = "Product";
 navAnchors[2].textContent = "Vision";
 navAnchors[3].textContent = "Features";
 navAnchors[4].textContent = "About";
 navAnchors[5].textContent = "Contact";
+
+let navcolor  = document.querySelectorAll(".container nav a");
+
+//navcolor.style.color = "green";
 
 let ctaHeader = document.querySelector(".cta-text h1");
 ctaHeader.textContent = "Dom Is Awesome";
