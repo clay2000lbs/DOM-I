@@ -53,9 +53,8 @@ navAnchors[3].textContent = "Features";
 navAnchors[4].textContent = "About";
 navAnchors[5].textContent = "Contact";
 
-let navcolor  = document.querySelectorAll(".container nav a");
 
-//navcolor.style.color = "green";
+// let navcolor = document.querySelectorAll(".container nav a");
 
 let ctaHeader = document.querySelector(".cta-text h1");
 ctaHeader.textContent = "Dom Is Awesome";
@@ -101,6 +100,13 @@ contactP[2].textContent = "sales@greatidea.io";
 
 let footerP = document.querySelector("footer p");
 footerP.textContent = "Copyright Great Idea! 2018";
+
+let navColor = document.querySelector("header nav a");
+navColor.style.color = "green";
+
+let navAdd = document.querySelector("nav");
+
+navAdd.appendChild("Coming Soon");
 
 
 
